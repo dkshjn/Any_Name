@@ -1,8 +1,17 @@
+"""
+This script demonstrates basic operations on a list of numbers.
+"""
 def find_average(numbers):
+    """
+    Calculate the average of a list of numbers.
+    """
     total = sum(numbers)
     return total / len(numbers)
 
 def filter_even(numbers):
+    """
+    Filter and return a list of even numbers from the input list.
+    """
     even = []
     for num in numbers:
         if num%2==0:
@@ -10,6 +19,9 @@ def filter_even(numbers):
     return even
 
 def main():
+    """
+    Main function to demonstrate basic operations on a list of numbers.
+    """
     print("Hello. We will be learning some basic functions today.\n")
 
     # Input: List of numbers
